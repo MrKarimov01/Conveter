@@ -1,0 +1,115 @@
+.nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    background-color: #181818;
+}
+.nav-bar__body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px 25px 30px;
+}
+.nav-bar__body__logo{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+.nav-bar__body__logo img{
+    width: 200px;
+    height: 40px;
+
+}
+.nav-bar__body__items{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar__body__items ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.nav-bar__body__items .business{
+    height: 20px;
+
+  
+    
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+/* identical to box height, or 154% */
+
+
+color: #FFFFFF;
+
+    
+    
+    color: #FFFFFF;
+    margin-right: 56px;
+}
+.nav-bar__body__items ul li{
+    margin-right: 30px;
+}
+.nav-bar__body__items ul li a{
+    height: 18px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+color: #FFFFFF;
+
+}
+.nav-bar__body__items ul li .under::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white !important;
+    transition: width .5s;
+}
+.nav-bar__body__items ul li .under:hover::after{
+    width: 100%;
+    transition: width .5s;
+    background-color: white !important;
+}
+.nav-bar__body__items ul li button{
+    padding: 9px 20px 13px;
+    border-radius: 14px;
+    border: none;
+
+
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.4px;
+
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid transparent;
+    transition: all .5s;
+
+}
+.nav-bar__body__items ul li button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}

@@ -1,0 +1,121 @@
+.hero{
+    width: 100%;
+    height: auto;
+    padding: 120px;
+    padding-bottom: 100px;
+    background: #000000;    
+}
+.hero__body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hero__body__text{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.hero__body__text h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.hero__body__text p{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    /* identical to box height, or 130% */
+
+    text-align: center;
+
+    color: #C0C0C0;
+}
+.hero__body__texno{
+    width: 1268px;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    
+
+}
+.hero__body__texno__blog{
+    width: 576px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: left;
+
+    overflow: hidden;
+    margin: 5px;
+    
+}
+
+
+.hero__body__texno__blogbg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    transition: all 0.5s;
+}
+.hero__body__texno__blogbg:hover{
+    transform: scale(1.1);
+    filter: blur(4px);
+}
+
+.hero__body__texno__blog__text{
+    color: white;
+    position: absolute;
+    padding-left: 30px;
+}
+.hero__body__texno__blog__text a img{
+    width: 143px;
+    height: 42px;
+
+}
+.hero__body__texno__blog__text span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.hero__body__texno__blog__text p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    
+    color: #C0C0C0;
+
+    width: 501px;
+    margin-bottom: 25px;
+    
+}
+
+.hero__body__texno__blogbg{
+    object-fit: cover;
+}
